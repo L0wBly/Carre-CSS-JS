@@ -1,10 +1,10 @@
-let result = bouton.getElementById("bouton");
-
-        function changeColor(color) {
-            bouton.style.backgroundColor = color;
-        }
-
+let bouton = document.getElementById("bouton");
+let Bcolor = bouton.style.backgroundColor;
         function change() {
-            changeColor('yellow');
-            result.innerHTML = "Background Color changed";
+            if ( bouton.style.backgroundColor == Bcolor) {
+                bouton.style.backgroundColor = "red";
+            }
+            else {
+                bouton.style.backgroundColor = Bcolor
+            }
         }  
