@@ -1,4 +1,4 @@
-let result = document.getElementById("bouton");
+let result = bouton.getElementById("bouton");
 
         function changeColor(color) {
             bouton.style.backgroundColor = color;
