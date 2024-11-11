@@ -1,17 +1,36 @@
-body{
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
     height: 100vh;
+    background-color: grey;
+}
+
+header {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.bouton{
-    height: 400px;
-    width: 400px;
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10rem 0 0 0;
+    
+}
+main .bouton{
+    height: 30rem;
+    width: 30rem;
     background-color: greenyellow;
 }
 
-.changer {
-    position: absolute;
-    color: aqua;
-    font-size: 4em;
+.bouton p {
+    text-align: center;
+    padding: 13.85rem 0 13.85rem 0 ;
+    color: greenyellow;
+    font-size: 2rem;
 }
